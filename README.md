@@ -1,6 +1,6 @@
 ![Header image](headerImage.png)
-# 🚀 iOS Developer Roadmap
-Roadmap to becoming an iOS developer in 2018
+# 🚀 iOS Developer Roadmap 
+Roadmap to becoming an iOS developer in 2018.
 
 ## ☝️ What is it?
 This is a tree-like compilation of topics highly relevant to iOS development. Both image and text version are generated from human readable content file.
@@ -15,12 +15,12 @@ The roadmap will be helpul for:
 
 
 ## 👌 Why these topics?
-See [this article](https://medium.com/@borlov/c9a24f413457) explainig selection of topics.
+See [this article](https://medium.com/@borlov/c9a24f413457) explaining selection of topics.
 
 ## 👨‍🎓 How to use this roadmap
 1. Find a topic you want to study.
 2. Go to corresponding resources section.
-3. Study untill you can confidently explain the topic to your cat.
+3. Study until you can confidently explain the topic to your cat.
 4. (Optional) tick the checkbox next to the topic. [How to tick a checkbox](HowTo/HOWTOCHECKBOX.md).
 4. Go to step 1.
 
@@ -28,32 +28,44 @@ See [this article](https://medium.com/@borlov/c9a24f413457) explainig selection 
 
 Start from `Getting started` section if you haven't done any iOS development yet.
 
-## 🗺 Image version
-![Header image](RoadmapProject/Script/Generated/ROADMAP.png)
+## 🗺 Image version 
+Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Script/Generated/ROADMAP.png)
+![Header image](RoadmapProject/Script/Generated/ESSENTIALROADMAP.png)
 
 ## 📝 Text version
 [Text version with materials to study.](RoadmapProject/Script/Generated/ROADMAP.md)
 
 ## 🤝 How to contribute
 
-- add additional topics 
-- add missing study materials 
-- throw ideas at me on Twitter [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/kamranahmedse.svg?style=social&label=@bohdan_orlov)](https://twitter.com/bohdan_orlov)
+- add new topics to `Content.yml`
+- add missing study materials to `Content.yml`
+- throw ideas at me on [![Twitter: @Bohdan_Orlov](https://img.shields.io/badge/twitter-@Bohdan_Orlov-4d66b3.svg?style=flat)](https://twitter.com/bohdan_orlov)
 
-[Adding new topics or materials can't be easier.](HowTo/HOWTOPR.md)
+
+[The complete contribution guide.](HowTo/HOWTOPR.md)
 
 
 ## ☑️ TODO
 - [x] content file with topics and materials
 - [x] ability to generate README.md from the content file
 - [x] ability to generate Roadmap tree image from the content file
-- [ ] make generation scipt less miserable:
-	- [ ] make it readable 🤦
+- [ ] make generation script less miserable:
+	- [x] make it readable 🤦
 	- [ ] output Yaml format violation errors
 	- [ ] handle errors of parsing Yaml into Topics and Resources
 	- [ ] handle file read/write errors
 	- [ ] handle image generation errors
+- [x] automatic regeneration of roadmap after every commit
+- [ ] automatic validation of content format on PR
+- [ ] make sure Travis doesn't deploy if generation script fails
 
-## License
+## ⚙️ Generation status
+[![Travis](https://travis-ci.org/BohdanOrlov/iOS-Developer-Roadmap.svg?branch=master)](https://travis-ci.org/BohdanOrlov/iOS-Developer-Roadmap)
+
+## 📃 License
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+## 📊 Skills Matrix 
+You might also like the [iOS Developer Skills Matrix](https://github.com/BohdanOrlov/ios-skills-matrix).
+![Skills matrix](https://github.com/BohdanOrlov/ios-skills-matrix/raw/master/matrix.png)
